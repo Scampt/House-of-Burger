@@ -1,0 +1,112 @@
+@media screen and (min-width: 600px) {
+    header .contenedor {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    }
+
+    main {
+    .contenedor {
+        margin: auto;
+        width: 90%;
+    }
+
+    .platillo {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .categoria {
+        margin-bottom: 20px;
+    }
+    }
+
+    .menu .contenedor article {
+    .precio {
+        font-size: 20px;
+    }
+
+    .descripcion {
+        font-size: 18px;
+    }
+    }
+
+    main .galeria .foto {
+    margin-left: 20px;
+    }
+
+    footer .domicilio {
+    margin: auto;
+    width: 80%;
+    margin-bottom: 50px;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    main .mapa iframe {
+    max-width: 850px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    header .contenedor {
+    justify-content: space-around;
+    }
+
+    .contenedor .menu a {
+    margin-right: 30px;
+    }
+
+    main {
+    .platillo .papas {
+        text-align: center;
+    }
+
+    .mapa iframe {
+        max-width: 1000px;
+    }
+    }
+
+    .papas .doritos {
+    width: 30%;
+    vertical-align: top;
+    }
+
+    .platillo .papas {
+    .takis {
+        width: 20%;
+        vertical-align: top;
+    }
+
+    .chetos {
+        width: 30%;
+        vertical-align: top;
+    }
+    }
+
+    footer {
+    .domicilio {
+        margin: auto;
+        width: 80%;
+        margin-bottom: 50px;
+    }
+
+    .telefono {
+        font-size: 30px;
+        width: 250px;
+        height: 20px;
+    }
+
+    .contenedor {
+        .moto {
+        width: 30%;
+        }
+
+        a {
+        font-size: 30px;
+            }
+        }
+    }
+}

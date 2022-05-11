@@ -1,0 +1,59 @@
+  /* FOOTER */
+footer {
+    width: 100%;
+    color: #fff;
+    background-color: #000;
+    text-align: center;
+    padding: 15px 10px;
+}
+
+.domicilio {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 70px;
+    margin-bottom: 50px;
+}
+
+.titulo {
+    font-size: 35px;
+}
+
+.telefono {
+    width: 150px;
+    height: 20px;
+    font-size: 20px;
+
+    &:hover {
+    color: #4aae20;
+    }
+}
+
+.contenedor {
+    .moto {
+    width: 30%;
+    margin: auto;
+
+    img {
+        width: 100%;
+    }
+    }
+
+    a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    }
+
+    .fa-facebook:hover {
+    color: #1877f2;
+    }
+
+    .fa-instagram:hover {
+    color: #833ab4;
+    }
+
+    a i {
+    margin-top: 30px;
+    }
+}

@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../../img/patron.webp");
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.iconos-pegados {
+    font-size: 35px;
+    position: fixed;
+    display: block;
+    right: 0;
+    bottom: 0;
+    text-align: end;
+}
+
+a {
+    color: #4aae20;
+    margin-right: 20px;
+    opacity: .7;
+
+    &:hover {
+    opacity: 1;
+    }
+}
+
+.iconos-pegados {
+    font-size: 30px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+
+    a {
+    color: #4aae20;
+    margin-right: 20px;
+    opacity: .7;
+
+    &:hover {
+        opacity: 1;
+        }
+    }
+    
+    a {
+        color: #4aae20;
+        margin-right: 20px;
+        opacity: .5;
+    
+        &:hover {
+            opacity: 1;
+            }
+        }
+
+    .arriba {
+        color: #fff;
+        opacity: .5;
+    
+        &:hover {
+            opacity: 1;
+            }
+        }
+    }
+
+@import "header";
+@import "main";
+@import "footer";
+@import "mediaqueries";

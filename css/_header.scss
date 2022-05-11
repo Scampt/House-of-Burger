@@ -1,0 +1,32 @@
+  /* HEADER */
+
+header .contenedor {
+    text-align: center;
+}
+
+.nav {
+    display: inline-block;
+}
+
+.link-logo img {
+    width: 70%;
+    vertical-align: top;
+
+    &:hover {
+    opacity: .7;
+    }
+}
+
+.contenedor .nav a {
+    padding: 10px 0;
+    font-size: 25px;
+    padding-right: 30px;
+    margin: auto;
+    text-decoration: none;
+    color: #dea75c;
+
+    &:hover {
+    text-decoration: underline;
+    color: #fff;
+    }
+}
